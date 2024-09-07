@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App | CyberCell</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <span>Todo App</span>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Login</li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="add-todo">
+      <div class="form">
+        <span class="primary-heading">Add ToDo</span>
+        <fieldset>
+          <legend>Todo Title :</legend>
+          <input type="text" name="title" id="title" minlength="3" />
+        </fieldset>
+        <fieldset>
+          <legend>Todo Description :</legend>
+          <textarea
+            name="description"
+            id="description"
+            rows="10"
+            cols="30"
+          ></textarea>
+        </fieldset>
+        <button class="btn" id="submit">Add Todo</button>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="todos">
+      <span class="primary-heading">Todos</span>
+      <table>
+        <thead>
+          <tr>
+            <th>S.No.</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>✔️</th>
+            <th>🗑️</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Buy Coffee</td>
+            <td>
+              I want to buy some coffee beans so that I can have fresh coffee
+              daily
+            </td>
+            <td>✔️</td>
+            <td>🗑️</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer>
+      Made with 💗 by <a href="https://linkedin.com/in/krsahil">Sahil Kumar</a>
+    </footer>
+
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
